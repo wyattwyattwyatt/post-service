@@ -2,7 +2,7 @@
 
 
 type Query {
-    recentPosts(count: Int, offset: Int): [Post]!
+   version: String!
 }
 
 

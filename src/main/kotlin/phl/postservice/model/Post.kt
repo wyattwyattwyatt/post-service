@@ -8,7 +8,6 @@ import java.util.*
 
 interface PostRepo: MongoRepository<Post,UUID>
 
-
 class Post(@Id val postId:UUID,
                 val titel:String,
                 val text:String)
